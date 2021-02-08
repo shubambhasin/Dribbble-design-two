@@ -1,5 +1,5 @@
 :root {
-  --bg-gray-blue: #e9f3ff;
+  --bg-gray-blue: #f7fbff;
   --blue: #00aeff;
   --orange: orange;
   --grey-light: rgb(240, 240, 240);
@@ -20,21 +20,30 @@ a img {
   width: 100px;
 }
 
-img
-{
+img {
   border-radius: 15px;
 }
-hr
-{
-margin: 4rem 0;
-border-top: 1px solid var(--grey-light);
+hr {
+  margin: 4rem 0;
+  border-top: 1px solid var(--grey-light);
 }
+
 .blue {
   color: var(--blue);
 }
 .orange {
   color: var(--orange);
 }
+
+.primary-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: var(--blue);
+  color: whitesmoke;
+}
+/* ***********main*************** */
 .container {
   width: 80%;
   margin-left: auto;
@@ -66,7 +75,7 @@ border-top: 1px solid var(--grey-light);
 /* ******************cover************* */
 .cover {
   background: var(--bg-gray-blue);
-  height: 85vh;
+  height: 85vmin;
   border-radius: 20px;
 }
 
@@ -116,8 +125,7 @@ border-top: 1px solid var(--grey-light);
   width: 100%;
   flex-direction: column;
 }
-.comfortable-classroom .images div 
-{
+.comfortable-classroom .images div {
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -127,13 +135,73 @@ border-top: 1px solid var(--grey-light);
   height: auto;
   margin: 10px;
 }
-
-.two-one
-{
+/* ******for one image of two image size ** */
+.two-one {
   width: 80%;
   height: auto;
   margin: 0 auto;
 }
+.benefit {
+  display: flex;
+}
+.benefit-container {
+  margin: auto 1rem;
+}
+.benefit-img {
+  align-self: center;
+}
+.benefit-img img {
+  width: 100%;
+  height: 50%;
+}
+.benefit-info div {
+  margin: 1rem;
+}
 
+.testimoni {
+  position: relative;
+  background: var(--bg-gray-blue);
+  padding: 2rem 1rem 3rem 1rem;
 
+  border-radius: 10px;
+}
+.testimoni-header {
+  display: flex;
+  justify-content: space-between;
+}
 
+.testimoni-header span {
+  margin: 25px 0;
+}
+
+.testimoni .review-cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.testimoni .card {
+  background: #fff;
+  box-shadow: 0px 2px 5px rgb(206, 206, 206);
+}
+
+footer {
+  padding: 2rem 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+footer .brand-footer {
+  width: 50%;
+}
+
+.list-style {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.brand-footer {
+  display: flex;
+  flex-direction: column;
+}
+.logos {
+  width: 100px;
+}
