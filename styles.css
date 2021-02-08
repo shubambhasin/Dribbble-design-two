@@ -19,7 +19,9 @@ a {
 a img {
   width: 100px;
 }
-
+.company-nav a img {
+  border-radius: 0px;
+}
 img {
   border-radius: 15px;
 }
@@ -77,6 +79,10 @@ hr {
   background: var(--bg-gray-blue);
   height: 85vmin;
   border-radius: 20px;
+
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .trusted-companies {
@@ -194,6 +200,10 @@ footer .brand-footer {
   width: 50%;
 }
 
+.footer-connect a {
+  margin: 5px;
+}
+
 .list-style {
   list-style-type: none;
   padding-inline-start: 0px;
@@ -204,4 +214,22 @@ footer .brand-footer {
 }
 .logos {
   width: 100px;
+}
+
+.cover-info {
+  align-self: center;
+}
+.cover-pic {
+  margin-left: 2rem;
+  align-self: flex-end;
+}
+.cover-pic img {
+  width: 70%;
+}
+.input input {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 10px rgb(223, 223, 223);
 }
